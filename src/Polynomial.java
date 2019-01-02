@@ -15,8 +15,9 @@ public class Polynomial {
             if (calculateArguments() == true) {
                 System.out.println("Your equation is well formatted");
             }
-            else
+            else {
                 System.out.println("An argument : \"" + inputData + "\" is bad formatted");
+            }
             System.out.println("Equation degree: " + getDegreeMax());
         }
         else
