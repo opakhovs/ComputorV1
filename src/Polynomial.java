@@ -12,8 +12,9 @@ public class Polynomial {
             numberToXDegree[1] = 0;
             numberToXDegree[2] = 0;
             origin = inputData;
-            if (calculateArguments() == true)
+            if (calculateArguments() == true) {
                 System.out.println("Your equation is well formatted");
+            }
             else
                 System.out.println("An argument : \"" + inputData + "\" is bad formatted");
             System.out.println("Equation degree: " + getDegreeMax());
