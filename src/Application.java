@@ -1,5 +1,10 @@
 public class Application {
     public static void main(String[] args) {
+        args = new String[]{
+                "X = 1",
+                "2 * X = 5",
+                "5 = 0"
+        };
         if (args.length > 0) {
             for (String arg : args) {
                 System.out.println("Your equation: \"" + arg + "\"");
